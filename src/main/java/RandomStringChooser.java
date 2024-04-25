@@ -1,8 +1,8 @@
 import java.util.*;
 public class RandomStringChooser
 {
-  String[] ok;
-  ArrayList <Integer> index;
+  private String[] ok;
+  private ArrayList <Integer> index;
   public RandomStringChooser(String[] bruh){
     ok = new String[bruh.length()];
     index = new ArrayList <Integer>();
