@@ -1,7 +1,7 @@
 public class RandomLetterChooser extends RandomStringChooser
 {
-	String ok[];
-	ArrayList <Integer> index;
+	private String ok[];
+	private ArrayList <Integer> index;
 	public RandomLetterChooser(String str)
 	{ 
 		ok = getSingleLetters(str);
