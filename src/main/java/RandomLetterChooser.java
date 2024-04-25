@@ -1,10 +1,12 @@
 public class RandomLetterChooser extends RandomStringChooser
 {
-	
+	String ok[];
+	ArrayList <Integer> index;
 	public RandomLetterChooser(String str)
 	{ 
-		/* to be implemented in part (b) */
-		
+		ok = getSingleLetters(str);
+		index = new ArrayList <Integer>();
+		this.getNext();
 	}
 	
 	
